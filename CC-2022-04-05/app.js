@@ -13,13 +13,11 @@
 // p:
 
 // Make a function that takes in a string
-
-
 function capitals(word){
 // create an empty array to store indexes
 let capitals = [];
 // Convert string to array
-// iterate through array comparing each character
+// iterate over array comparing each character
 // push indexes into empty array
 word.split("").forEach((el, i) => {
     if(el === el.toUpperCase()){
@@ -27,12 +25,9 @@ word.split("").forEach((el, i) => {
     }
 }) // end of forEach
 
-// sort array 
 // return array
 return capitals
 }
-
-console.log(capitals("CodEWaRs"), [0,3,4,6])
 
 
 
